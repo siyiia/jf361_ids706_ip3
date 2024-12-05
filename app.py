@@ -9,7 +9,7 @@ def home():
     return "Welcome to the LLM-powered Flask App!"
 
 # Load a local LLM model
-llm_pipeline = pipeline("text-generation", model="gpt2")
+llm_pipeline = pipeline("text-generation", model="distilgpt2")
 
 @app.route("/query", methods=["POST"])
 def handle_query():
