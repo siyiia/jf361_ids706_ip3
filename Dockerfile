@@ -10,9 +10,6 @@ COPY requirements.txt .
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Download the required model to avoid runtime delays
-RUN python -c "from transformers import pipeline; pipeline('text-generation', model='gpt2')"
-
 # Copy the application code
 COPY . .
 
