@@ -3,3 +3,4 @@ black
 transformers
 flask
 torch
+python-dotenv
