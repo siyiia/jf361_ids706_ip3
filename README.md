@@ -2,7 +2,7 @@
 [![CI](https://github.com/siyiia/jf361_ids706_ip3/actions/workflows/cicd.yml/badge.svg)](https://github.com/siyiia/jf361_ids706_ip3/actions/workflows/cicd.yml)
 
 ### Video Link
-[Watch the video here]()
+[Watch the video here](https://youtu.be/RXTg0sKFyCk)
 
 ## Project Introduction
 This project is to build a publicly accessible auto-scaling container using AWS Services and Flask
